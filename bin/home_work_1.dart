@@ -1,12 +1,14 @@
+import 'dart:io';
+
 void main() {
   //Задча 1
 
-  // print('Введите первое число');
-  // double a = double.parse(stdin.readLineSync()!);
-  // print('Введите второе число');
-  // double b = double.parse(stdin.readLineSync()!);
-  // print(
-  //     '${a + b}-Сложение\n${a - b}-Вычитание\n${a * b}-Умножение\n${a / b}-Деление');
+  print('Введите первое число');
+  double a = double.parse(stdin.readLineSync()!);
+  print('Введите второе число');
+  double b = double.parse(stdin.readLineSync()!);
+  print(
+      '${a + b}-Сложение\n${a - b}-Вычитание\n${a * b}-Умножение\n${a / b}-Деление');
 
   //Задча 2
 
